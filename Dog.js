@@ -1,8 +1,16 @@
-function Dog() {
-    console.log('Hello dog 123')
+const chalk = import('chalk')
+
+function Dog(name) {
     this.stomach = []
+    this.name = name
 }
 
-Dog.prototype.eat = (food) => {
+Dog.prototype.eat = function() {
     this.stomach.push(food)
 }
+
+Dog.prototype.sayHi = function() {
+    console.log('Gau gau ' + chalk.blue(this.name))
+}
+
+module.exports = Dog;

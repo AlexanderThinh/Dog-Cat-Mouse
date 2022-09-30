@@ -1,0 +1,14 @@
+{
+  "name": "git_project_1",
+  "version": "1.0.0",
+  "description": "This is just a demo project to learn git",
+  "main": "Cat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
