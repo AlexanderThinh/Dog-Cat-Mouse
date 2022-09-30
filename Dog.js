@@ -1,4 +1,4 @@
-const chalk = import('chalk')
+import chalk from "chalk"
 
 function Dog(name) {
     this.stomach = []
@@ -13,4 +13,4 @@ Dog.prototype.sayHi = function() {
     console.log('Gau gau ' + chalk.blue(this.name))
 }
 
-module.exports = Dog;
+export default Dog

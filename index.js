@@ -1,4 +1,7 @@
-var Dog = import('./Dog.js')
-var chalk = import('chalk')
+import Dog from './Dog.js';
+import chalk from 'chalk';
 
-console.log('Hello ' + chalk.blue('Alexander Thinh'))
+var dog = new Dog('Tom')
+dog.sayHi()
+
+console.log(chalk.blue('Hello Alexander Thinh'))
