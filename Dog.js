@@ -1,5 +1,5 @@
 function Dog() {
-    console.log('Hello dog')
+    console.log('Hello dog 123')
     this.stomach = []
 }
 
