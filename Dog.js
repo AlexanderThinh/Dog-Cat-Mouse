@@ -10,7 +10,7 @@ Dog.prototype.eat = function() {
 }
 
 Dog.prototype.sayHi = function() {
-    console.log('Gau gau ' + chalk.blue(this.name))
+    console.log('Gau gau ' + chalk.green(this.name))
 }
 
 export default Dog
