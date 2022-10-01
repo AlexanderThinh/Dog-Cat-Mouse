@@ -1,3 +1,3 @@
 function Horse() {
-    console.log('I am a horse')
+    console.log('I am a horse!!!')
 }
