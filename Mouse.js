@@ -7,4 +7,8 @@ Mouse.prototype.run = function() {
     console.log('Mouse is running')
 }
 
+Mouse.prototype.sleep = function() {
+    console.log('Mouse is sleeping')
+}
+
 module.exports = Mouse
