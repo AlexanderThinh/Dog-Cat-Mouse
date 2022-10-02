@@ -2,6 +2,6 @@ function Horse() {
     console.log('I am a horse!!!')
 }
 
-Horse.prototype.jump = function() {
-    console.log('Horse is jumping')
+Horse.prototype.run3 = function() {
+    console.log('Horse is running 3')
 }
