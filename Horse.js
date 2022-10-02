@@ -3,5 +3,5 @@ function Horse() {
 }
 
 Horse.prototype.run = function() {
-    console.log('Horse is running')
+    console.log('Horse is running 2')
 }
